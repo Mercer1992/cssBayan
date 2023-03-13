@@ -83,6 +83,7 @@ img {
 
 .tab :checked + .tab-title::after {
   content: "-";
+  transition: 0.3s;
 }
 
 .tab :checked ~ .tab-content {
